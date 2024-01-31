@@ -32,7 +32,7 @@ def get_agg_multi_cols(dataframe, target_column, agg_, *cols):
 bracket(1)
 print(df.info())
 bracket(1)
-print(df.describe())
+print(df.describe().T)
 bracket(2)
 
 # 2) Kaç unique SOURCE vardır? Frekansları nedir?
@@ -71,6 +71,7 @@ bracket(10)
 # 10) COUNTRY-SOURCE kırılımında PRICE ortalamaları nedir?
 print(get_agg_multi_cols(df, "PRICE", "mean", "COUNTRY", "SOURCE"))
 bracket(11)
+
 
 # 11) COUNTRY, SOURCE, SEX, AGE kırılımında ortalama kazançlar nedir?
 print(get_agg_multi_cols(df, "PRICE", "mean", "COUNTRY", "SOURCE", "SEX", "AGE"))
