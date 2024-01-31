@@ -4,8 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="818ca4c3-e36a-4dd9-82a9-abceccf02ac7" name="Changes" comment="'The fictional_army dataset tasks were done.'">
-      <change beforePath="$PROJECT_DIR$/Data_Analysis.py" beforeDir="false" afterPath="$PROJECT_DIR$/Data_Analysis.py" afterDir="false" />
+    <list default="true" id="818ca4c3-e36a-4dd9-82a9-abceccf02ac7" name="Changes" comment="'Some fixes were done and some necessary datasets were added'">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Rule-Based_Classification_.py" beforeDir="false" afterPath="$PROJECT_DIR$/Ruled-Based_Classification/Rule-Based_Classification_.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -17,6 +18,17 @@
       <list>
         <option value="Python Script" />
       </list>
+    </option>
+  </component>
+  <component name="FlaskConsoleOptions" custom-start-script="import sys&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;from flask.cli import ScriptInfo&#10;locals().update(ScriptInfo(create_app=None).load_app().make_shell_context())&#10;print(&quot;Python %s on %s\nApp: %s [%s]\nInstance: %s&quot; % (sys.version, sys.platform, app.import_name, app.env, app.instance_path))">
+    <envs>
+      <env key="FLASK_APP" value="app" />
+    </envs>
+    <option name="myCustomStartScript" value="import sys&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;from flask.cli import ScriptInfo&#10;locals().update(ScriptInfo(create_app=None).load_app().make_shell_context())&#10;print(&quot;Python %s on %s\nApp: %s [%s]\nInstance: %s&quot; % (sys.version, sys.platform, app.import_name, app.env, app.instance_path))" />
+    <option name="myEnvs">
+      <map>
+        <entry key="FLASK_APP" value="app" />
+      </map>
     </option>
   </component>
   <component name="Git.Merge.Settings">
@@ -56,6 +68,8 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Python.Correlation.executor": "Run",
+    "Python.Euro_2012_stats_TEAM.executor": "Run",
     "Python.Food_Facts.executor": "Run",
     "Python.Pandas Exercises.executor": "Run",
     "Python.Rule-Based_Classification_.executor": "Run",
@@ -66,22 +80,29 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "ignore.virus.scanning.warn.message": "true",
-    "last_opened_file_path": "C:/Users/Souljah_Pc/PycharmProjects/Exercises_Data_Analaysis",
+    "last_opened_file_path": "C:/Users/Souljah_Pc/PycharmProjects/Exercises_Data_Analaysis/Ruled-Based_Classification",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "preferences.keymap",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Souljah_Pc\PycharmProjects\Exercises_Data_Analaysis\Ruled-Based_Classification" />
+      <recent name="C:\Users\Souljah_Pc\PycharmProjects\Exercises_Data_Analaysis\Correlation_Exercises" />
       <recent name="C:\Users\Souljah_Pc\PycharmProjects\Exercises_Data_Analaysis" />
     </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Souljah_Pc\PycharmProjects\Exercises_Data_Analaysis\Ruled-Based_Classification" />
+      <recent name="C:\Users\Souljah_Pc\PycharmProjects\Exercises_Data_Analaysis\Correlation_Exercises" />
+    </key>
   </component>
-  <component name="RunManager" selected="Python.fictional_army">
-    <configuration name="Rule-Based_Classification_" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python.Euro_2012_stats_TEAM">
+    <configuration name="Correlation" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Exercises_Data_Analaysis" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -90,12 +111,35 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Correlation_Exercises" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Rule-Based_Classification_.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Correlation_Exercises/Correlation.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Euro_2012_stats_TEAM" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Exercises_Data_Analaysis" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Data_Analysis_at_Euro_2012_stats_TEAM" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Data_Analysis_at_Euro_2012_stats_TEAM/Euro_2012_stats_TEAM.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -173,36 +217,13 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="will_delete" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="Exercises_Data_Analaysis" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="C:\Users\Souljah_Pc\PycharmProjects\Exercises_Data_Analaysis\will_delete.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.Euro_2012_stats_TEAM" />
+        <item itemvalue="Python.Correlation" />
         <item itemvalue="Python.fictional_army" />
         <item itemvalue="Python.chipo" />
         <item itemvalue="Python.will_delete (1)" />
-        <item itemvalue="Python.will_delete" />
-        <item itemvalue="Python.Rule-Based_Classification_" />
       </list>
     </recent_temporary>
   </component>
@@ -224,7 +245,7 @@
       <workItem from="1706563559073" duration="469000" />
       <workItem from="1706598651117" duration="9780000" />
       <workItem from="1706631273589" duration="13270000" />
-      <workItem from="1706689526648" duration="20396000" />
+      <workItem from="1706689526648" duration="27207000" />
     </task>
     <task id="LOCAL-00001" summary="Firs commit.">
       <option name="closed" value="true" />
@@ -306,7 +327,23 @@
       <option name="project" value="LOCAL" />
       <updated>1706728505651</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="'Some fixes'">
+      <option name="closed" value="true" />
+      <created>1706728881430</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1706728881430</updated>
+    </task>
+    <task id="LOCAL-00012" summary="'Some fixes were done and some necessary datasets were added'">
+      <option name="closed" value="true" />
+      <created>1706729129561</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1706729129561</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -353,11 +390,15 @@
     <MESSAGE value="'.gitignore' train" />
     <MESSAGE value="'The chipo dataset tasks were done.'" />
     <MESSAGE value="'The fictional_army dataset tasks were done.'" />
-    <option name="LAST_COMMIT_MESSAGE" value="'The fictional_army dataset tasks were done.'" />
+    <MESSAGE value="'Some fixes'" />
+    <MESSAGE value="'Some fixes were done and some necessary datasets were added'" />
+    <option name="LAST_COMMIT_MESSAGE" value="'Some fixes were done and some necessary datasets were added'" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/Exercises_Data_Analaysis$Pandas_Exercises.coverage" NAME="Pandas Exercises Coverage Results" MODIFIED="1706637290737" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Exercises_Data_Analaysis$Rule_Based_Classification_.coverage" NAME="Rule-Based_Classification_ Coverage Results" MODIFIED="1706647214508" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Exercises_Data_Analaysis$Correlation.coverage" NAME="Correlation Coverage Results" MODIFIED="1706729357516" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Correlation_Exercises" />
+    <SUITE FILE_PATH="coverage/Exercises_Data_Analaysis$Euro_2012_stats_TEAM.coverage" NAME="Euro_2012_stats_TEAM Coverage Results" MODIFIED="1706736615266" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Data_Analysis_at_Euro_2012_stats_TEAM" />
     <SUITE FILE_PATH="coverage/Exercises_Data_Analaysis$fictional_army.coverage" NAME="fictional_army Coverage Results" MODIFIED="1706728121198" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Data_Anlysis_at_Fictional_Army" />
     <SUITE FILE_PATH="coverage/Exercises_Data_Analaysis$will_delete__1_.coverage" NAME="will_delete (1) Coverage Results" MODIFIED="1706692750120" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Exercises_Data_Analaysis$silinecek_2.coverage" NAME="silinecek_2 Coverage Results" MODIFIED="1706690523403" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />

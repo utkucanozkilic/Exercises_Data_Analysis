@@ -1,12 +1,11 @@
 import numpy as np
 import pandas as pd
 
-pd.set_option('display.max_columns', None)
+pd.set_option('display.max_columns', 1881)
 pd.set_option('display.width', 1881)
 
 df_copy = pd.read_csv(
-    "C:/Users/Souljah_Pc/Desktop/miuul/Veri Bilimi için Python Programlama/"
-    "pythonProgramlama/python_for_data_science/data_analysis_with_python/datasets/persona.csv"
+    "persona.csv"
     )
 
 df = df_copy.copy()
