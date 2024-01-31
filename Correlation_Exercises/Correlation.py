@@ -39,8 +39,7 @@ pd.set_option('display.max_columns', None)
 pd.set_option('display.width', 500)
 
 df = pd.read_csv(
-    "C:/Users/Souljah_Pc/Desktop/miuul/Veri Bilimi için Python Programlama/pythonProgramlama/"
-    "python_for_data_science/data_analysis_with_python/datasets/breast_cancer.csv"
+    "breast_cancer.csv"
     )
 
 df = df.iloc[:, 1:-1]
