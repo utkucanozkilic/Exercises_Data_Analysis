@@ -44,12 +44,13 @@ print(chipo.groupby("item_name")["quantity"].sum().sort_values(ascending = False
 bracket()
 
 # For the most-ordered item, how many items were ordered?
-print(chipo.groupby("item_name")["quantity"].sum())
+print(chipo.groupby("item_name")["quantity"].sum()["Chicken Bowl"])
 bracket()
 
 # What was the most ordered item in the choice_description column?
 # df'ten ilgili sütunu filtreleyerek al
 description_df = chipo["choice_description"].dropna()
+bracket()
 
 # her satırdaki değerin içindeki []'leri at.
 description_df = description_df.str.replace("[", "").str.replace("]", "")
@@ -71,7 +72,7 @@ for i in description_df:
 most_ordered_item = pd.DataFrame(description_df_list).value_counts().sort_values(ascending = False).index[0]
 # daha uygun formatlı çıktı için listeye çevir ve bastır.
 print(list(most_ordered_item))
-
+bracket()
 
 # Step 13. Turn the item price into a float
 # Step 13.a. Check the item price type
@@ -81,17 +82,17 @@ print(list(most_ordered_item))
 print(chipo["item_price"].head())
 chipo["item_price"] = chipo["item_price"].apply(lambda x: x.replace("$", "")).astype("float64")
 print(chipo["item_price"].head(), chipo["item_price"].dtype)
-
+bracket()
 # How much was the revenue for the period in the dataset?
 chipo["total_price"] = chipo["quantity"] * chipo["item_price"]
 print("The total revenue for the period is", chipo["total_price"].sum())
-
+bracket()
 # How many orders were made in the period?
 print(len(chipo.groupby("order_id")), "orders were made in the period.")
-
+bracket()
 #  What is the average revenue amount per order?
 print(chipo["total_price"])
 print(chipo.groupby("order_id")["total_price"].mean())
-
+bracket()
 # How many different items are sold?
 print(chipo["item_name"].value_counts().sum())

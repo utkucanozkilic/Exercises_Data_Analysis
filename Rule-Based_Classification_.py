@@ -2,7 +2,7 @@ import numpy as np
 import pandas as pd
 
 pd.set_option('display.max_columns', None)
-pd.set_option('display.width', 500)
+pd.set_option('display.width', 1881)
 
 df_copy = pd.read_csv(
     "C:/Users/Souljah_Pc/Desktop/miuul/Veri Bilimi için Python Programlama/"
