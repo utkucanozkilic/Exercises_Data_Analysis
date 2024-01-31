@@ -1,4 +1,5 @@
 import pandas as pd
+import numpy as np
 
 
 def bracket():
@@ -47,8 +48,50 @@ print(chipo.groupby("item_name")["quantity"].sum())
 bracket()
 
 # What was the most ordered item in the choice_description column?
+# df'ten ilgili sütunu filtreleyerek al
 description_df = chipo["choice_description"].dropna()
 
+# her satırdaki değerin içindeki []'leri at.
 description_df = description_df.str.replace("[", "").str.replace("]", "")
-print(description_df)
+description_df_list = []
 
+# description_df içinde gez ve eğer i içinde virgül yoksa doğrudan description_df_list'e ekle.
+# eğer virgül varsa 'virgül+space' olacak şekilde parçala, bunu geçici _ listesine at ve bu listeden de
+# description_df_list'e at.
+for i in description_df:
+    if "," not in i:
+        description_df_list.append(i)
+    else:
+        _ = i.split(", ")
+        for z in _:
+            description_df_list.append(z)
+
+# description_df_list'i Pandas Serisine dönüştür, value_counts() ile grupla, değerleri azalan olarak sırala
+# ve ilk değeri al
+most_ordered_item = pd.DataFrame(description_df_list).value_counts().sort_values(ascending = False).index[0]
+# daha uygun formatlı çıktı için listeye çevir ve bastır.
+print(list(most_ordered_item))
+
+
+# Step 13. Turn the item price into a float
+# Step 13.a. Check the item price type
+# Step 13.b. Create a lambda function and change the type of item price
+# Step 13.c. Check the item price type
+
+print(chipo["item_price"].head())
+chipo["item_price"] = chipo["item_price"].apply(lambda x: x.replace("$", "")).astype("float64")
+print(chipo["item_price"].head(), chipo["item_price"].dtype)
+
+# How much was the revenue for the period in the dataset?
+chipo["total_price"] = chipo["quantity"] * chipo["item_price"]
+print("The total revenue for the period is", chipo["total_price"].sum())
+
+# How many orders were made in the period?
+print(len(chipo.groupby("order_id")), "orders were made in the period.")
+
+#  What is the average revenue amount per order?
+print(chipo["total_price"])
+print(chipo.groupby("order_id")["total_price"].mean())
+
+# How many different items are sold?
+print(chipo["item_name"].value_counts().sum())

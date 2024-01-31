@@ -1,5 +1,4 @@
-import pandas as pd
+ifade = "Ali, Veli, Deli"
 
-df = pd.DataFrame({"name": ["Alice", "Bob", "Charlie"]})
-result = df["name"].str.len()
-print(result)
+listem = ifade.split("e")
+print(listem)
