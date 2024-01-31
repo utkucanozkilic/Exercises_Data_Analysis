@@ -4,12 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="818ca4c3-e36a-4dd9-82a9-abceccf02ac7" name="Changes" comment="'The chipo dataset tasks were done.'">
-      <change afterPath="$PROJECT_DIR$/Data_Anlysis_at_Fictional_Army/fictional_army.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Data_Analysis_at_chipo/chipo.py" beforeDir="false" afterPath="$PROJECT_DIR$/Data_Analysis_at_chipo/chipo.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pandas Exercises.py" beforeDir="false" afterPath="$PROJECT_DIR$/Pandas Exercises.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Rule-Based_Classification_.py" beforeDir="false" afterPath="$PROJECT_DIR$/Rule-Based_Classification_.py" afterDir="false" />
+    <list default="true" id="818ca4c3-e36a-4dd9-82a9-abceccf02ac7" name="Changes" comment="'The fictional_army dataset tasks were done.'">
+      <change beforePath="$PROJECT_DIR$/Data_Analysis.py" beforeDir="false" afterPath="$PROJECT_DIR$/Data_Analysis.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -228,7 +224,7 @@
       <workItem from="1706563559073" duration="469000" />
       <workItem from="1706598651117" duration="9780000" />
       <workItem from="1706631273589" duration="13270000" />
-      <workItem from="1706689526648" duration="20048000" />
+      <workItem from="1706689526648" duration="20396000" />
     </task>
     <task id="LOCAL-00001" summary="Firs commit.">
       <option name="closed" value="true" />
@@ -302,7 +298,15 @@
       <option name="project" value="LOCAL" />
       <updated>1706699703960</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="'The fictional_army dataset tasks were done.'">
+      <option name="closed" value="true" />
+      <created>1706728505651</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1706728505651</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -348,7 +352,8 @@
     <MESSAGE value="'.gitignore' fixed" />
     <MESSAGE value="'.gitignore' train" />
     <MESSAGE value="'The chipo dataset tasks were done.'" />
-    <option name="LAST_COMMIT_MESSAGE" value="'The chipo dataset tasks were done.'" />
+    <MESSAGE value="'The fictional_army dataset tasks were done.'" />
+    <option name="LAST_COMMIT_MESSAGE" value="'The fictional_army dataset tasks were done.'" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/Exercises_Data_Analaysis$Pandas_Exercises.coverage" NAME="Pandas Exercises Coverage Results" MODIFIED="1706637290737" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />

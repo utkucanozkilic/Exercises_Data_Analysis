@@ -122,6 +122,7 @@ def target_summary_with_cat(dataframe, target, categorical_col):
         "MEAN_OF_TARGET": dataframe.groupby(categorical_col)[target].mean()
         }))
 
+
 def target_summary_with_num(dataframe, target, numerical_col):
     # print(pd.DataFrame({
     #     "MEAN_OF_NUM_COL": dataframe.groupby(target)[numerical_col].mean()
