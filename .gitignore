@@ -159,5 +159,5 @@ cython_debug/
 #  option (not recommended) you can uncomment the following to ignore the entire idea folder.
 #.idea/
 /environment.yml
-/silinecek_2.py
+/will_delete.py
 /Data_Analysis_at_Food_Facts_Kaggle/
