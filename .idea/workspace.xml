@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="818ca4c3-e36a-4dd9-82a9-abceccf02ac7" name="Changes" comment="'Some fixes were done and some necessary datasets were added'">
+    <list default="true" id="818ca4c3-e36a-4dd9-82a9-abceccf02ac7" name="Changes" comment="'Euro12 dataset tasks were done.'">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Rule-Based_Classification_.py" beforeDir="false" afterPath="$PROJECT_DIR$/Ruled-Based_Classification/Rule-Based_Classification_.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -74,6 +73,7 @@
     "Python.Pandas Exercises.executor": "Run",
     "Python.Rule-Based_Classification_.executor": "Run",
     "Python.chipo.executor": "Run",
+    "Python.drinks.executor": "Run",
     "Python.fictional_army.executor": "Run",
     "Python.silinecek_2.executor": "Run",
     "Python.will_delete (1).executor": "Run",
@@ -101,7 +101,7 @@
       <recent name="C:\Users\Souljah_Pc\PycharmProjects\Exercises_Data_Analaysis\Correlation_Exercises" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.Euro_2012_stats_TEAM">
+  <component name="RunManager" selected="Python.drinks">
     <configuration name="Correlation" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Exercises_Data_Analaysis" />
       <option name="ENV_FILES" value="" />
@@ -171,6 +171,29 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="drinks" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Exercises_Data_Analaysis" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Data_Analysis_at_drinks" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Data_Analysis_at_drinks/drinks.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="fictional_army" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Exercises_Data_Analaysis" />
       <option name="ENV_FILES" value="" />
@@ -194,36 +217,13 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="will_delete (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="Exercises_Data_Analaysis" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/will_delete.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.drinks" />
         <item itemvalue="Python.Euro_2012_stats_TEAM" />
         <item itemvalue="Python.Correlation" />
         <item itemvalue="Python.fictional_army" />
         <item itemvalue="Python.chipo" />
-        <item itemvalue="Python.will_delete (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -245,7 +245,9 @@
       <workItem from="1706563559073" duration="469000" />
       <workItem from="1706598651117" duration="9780000" />
       <workItem from="1706631273589" duration="13270000" />
-      <workItem from="1706689526648" duration="27207000" />
+      <workItem from="1706689526648" duration="27548000" />
+      <workItem from="1706775702352" duration="994000" />
+      <workItem from="1707172617301" duration="1284000" />
     </task>
     <task id="LOCAL-00001" summary="Firs commit.">
       <option name="closed" value="true" />
@@ -343,7 +345,15 @@
       <option name="project" value="LOCAL" />
       <updated>1706729129561</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="'Euro12 dataset tasks were done.'">
+      <option name="closed" value="true" />
+      <created>1706736954135</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1706736954135</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -392,17 +402,19 @@
     <MESSAGE value="'The fictional_army dataset tasks were done.'" />
     <MESSAGE value="'Some fixes'" />
     <MESSAGE value="'Some fixes were done and some necessary datasets were added'" />
-    <option name="LAST_COMMIT_MESSAGE" value="'Some fixes were done and some necessary datasets were added'" />
+    <MESSAGE value="'Euro12 dataset tasks were done.'" />
+    <option name="LAST_COMMIT_MESSAGE" value="'Euro12 dataset tasks were done.'" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/Exercises_Data_Analaysis$Pandas_Exercises.coverage" NAME="Pandas Exercises Coverage Results" MODIFIED="1706637290737" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Exercises_Data_Analaysis$Rule_Based_Classification_.coverage" NAME="Rule-Based_Classification_ Coverage Results" MODIFIED="1706647214508" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Exercises_Data_Analaysis$Correlation.coverage" NAME="Correlation Coverage Results" MODIFIED="1706729357516" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Correlation_Exercises" />
-    <SUITE FILE_PATH="coverage/Exercises_Data_Analaysis$Euro_2012_stats_TEAM.coverage" NAME="Euro_2012_stats_TEAM Coverage Results" MODIFIED="1706736615266" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Data_Analysis_at_Euro_2012_stats_TEAM" />
+    <SUITE FILE_PATH="coverage/Exercises_Data_Analaysis$Euro_2012_stats_TEAM.coverage" NAME="Euro_2012_stats_TEAM Coverage Results" MODIFIED="1706736848379" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Data_Analysis_at_Euro_2012_stats_TEAM" />
     <SUITE FILE_PATH="coverage/Exercises_Data_Analaysis$fictional_army.coverage" NAME="fictional_army Coverage Results" MODIFIED="1706728121198" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Data_Anlysis_at_Fictional_Army" />
     <SUITE FILE_PATH="coverage/Exercises_Data_Analaysis$will_delete__1_.coverage" NAME="will_delete (1) Coverage Results" MODIFIED="1706692750120" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Exercises_Data_Analaysis$silinecek_2.coverage" NAME="silinecek_2 Coverage Results" MODIFIED="1706690523403" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Exercises_Data_Analaysis$Food_Facts.coverage" NAME="Food_Facts Coverage Results" MODIFIED="1706606056127" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Data_Analysis_at_Food_Facts_Kaggle" />
     <SUITE FILE_PATH="coverage/Exercises_Data_Analaysis$chipo.coverage" NAME="chipo Coverage Results" MODIFIED="1706701038251" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Data_Analysis_at_chipo" />
+    <SUITE FILE_PATH="coverage/Exercises_Data_Analaysis$drinks.coverage" NAME="drinks Coverage Results" MODIFIED="1707172835652" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Data_Analysis_at_drinks" />
   </component>
 </project>
